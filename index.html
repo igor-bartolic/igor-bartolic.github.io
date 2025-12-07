@@ -3,174 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igor Bartolic – CCIE Data Center | Remote Consultant</title>
+    <title>Igor Bartolic — CCIE Data Center Consultant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f5f7fb;
-            color: #1a1a1a;
-            line-height: 1.6;
+        /* General Styles */
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            line-height: 1.6; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            color: #333; 
+            background-color: #f8f9fa; /* Light background */
         }
-
-        header {
-            background: #0a2540;
-            color: #ffffff;
-            padding: 60px 20px;
-            text-align: center;
+        
+        /* Typography */
+        h1 { 
+            color: #004085; /* Professional dark blue */
+            font-size: 2.2em; 
+            margin-bottom: 5px; 
         }
-
-        header h1 {
-            font-size: 2.6em;
-            margin-bottom: 10px;
+        h2 { 
+            color: #007bff; /* Primary blue for sections */
+            font-size: 1.6em; 
+            border-bottom: 2px solid #e9ecef; 
+            padding-bottom: 5px; 
+            margin-top: 35px; 
+            margin-bottom: 15px; 
         }
+        p { margin-bottom: 15px; }
 
-        header p {
-            max-width: 600px;
-            margin: auto;
-            font-size: 1.2em;
-            opacity: 0.9;
+        /* Highlight Boxes (Services) */
+        .service-box { 
+            background-color: #fff; 
+            border-left: 5px solid #007bff; /* Blue accent bar */
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+            border-radius: 4px;
         }
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 30px 20px;
-        }
-
-        h2 {
-            color: #0a2540;
-            border-left: 4px solid #0a2540;
-            padding-left: 10px;
-            margin-top: 40px;
-        }
-
-        .service-box {
-            background: #ffffff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        }
-
         .service-box h3 {
+            color: #004085;
             margin-top: 0;
+            font-size: 1.3em;
+        }
+        .price-tag { 
+            font-weight: 700; 
+            color: #28a745; /* Green for pricing */
+            display: block;
+            margin-top: 10px;
+        }
+        .limited {
+            color: #dc3545; /* Red for emphasis on scarcity */
+            font-weight: 700;
         }
 
-        .cta {
-            background: #0a2540;
-            color: white;
+        /* Contact Section */
+        .contact-info {
+            background-color: #e9ecef;
             padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            margin: 40px 0;
+            border-radius: 4px;
+            margin-top: 30px;
         }
-
-        .cta a {
-            background: #fff;
-            color: #0a2540;
-            padding: 10px 20px;
-            border-radius: 5px;
+        .contact-info a {
+            color: #007bff;
             text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            background: #0a2540;
-            color: #ffffff;
-            text-align: center;
-            padding: 15px;
-            margin-top: 40px;
+            font-weight: 700;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Igor Bartolic</h1>
-    <p>CCIE Data Center • ACI & EVPN Specialist • Remote Data Center Consultant</p>
-</header>
-
-<div class="container">
+    <h1>Igor Bartolic — CCIE Data Center #___</h1>
+    <p><span class="limited">Limited Availability</span> | **Premium ACI & EVPN Consulting**</p>
 
     <h2>About Me</h2>
-    <p>
-        I am a Lead Network Engineer and CCIE Data Center certified specialist with 20+ years of experience 
-        across Cisco and Juniper Data Center environments, EVPN/VXLAN architectures, and high-availability 
-        network design. 
-    </p>
+    <p>I am a Lead Network Engineer with 20+ years in designing, optimizing, and troubleshooting complex Data Center and Service Provider environments[cite: 57].</p>
+    <p>I specialize in <span class="limited">Cisco ACI</span>, <span class="limited">EVPN/VXLAN fabrics</span>, and **Juniper data center technologies**[cite: 58]. I hold the **Cisco CCIE Data Center** certification[cite: 59].</p>
+    <p>I currently work at IBM and dedicate a **strictly limited amount of time** to short-term, high-impact consulting engagements for organizations requiring expert-level input without hiring full-time staff[cite: 60].</p>
 
-    <p>
-        I currently work at IBM and offer limited-availability **remote consulting** for companies needing 
-        specialized expertise in ACI, EVPN fabrics, data center design, and complex troubleshooting.
-    </p>
-
-    <h2>Services</h2>
+    <h2>Productized Services</h2>
 
     <div class="service-box">
-        <h3>ACI Fabric Review & Optimization</h3>
-        <p>
-            • Fabric health check<br>
-            • Policy model review<br>
-            • Fault & capacity analysis<br>
-            • Architecture improvements<br>
-            <strong>Price: €1,200–€2,500</strong>
-        </p>
+        <h3>1. ACI Fabric Review & Optimization (Fixed Price)</h3>
+        <p>Your low-risk entry point. A full analysis of fabric health, policy model, and capacity. **Observation and Recommendation only**[cite: 10, 22].</p>
+        <ul>
+            <li>Fabric health & fault review [cite: 63]</li>
+            <li>Policy model evaluation & cleanup recommendations [cite: 64]</li>
+            <li>Stability, capacity, and performance assessment [cite: 65]</li>
+        </ul>
+        <span class="price-tag">Fixed Price: €1,200–€2,500. **Inquire for SoW**</span>
     </div>
 
     <div class="service-box">
-        <h3>EVPN/VXLAN Data Center Architecture Consulting</h3>
-        <p>
-            • Leaf–spine design<br>
-            • BGP/EVPN validation<br>
-            • HA & redundancy planning<br>
-            • Migrations (legacy → EVPN or ACI → EVPN)<br>
-            <strong>€120–€180/hour or €3,000+ project</strong>
-        </p>
+        <h3>2. High-Severity Troubleshooting & Escalation</h3>
+        <p>Immediate remote support for critical, production-impacting issues.</p>
+        <ul>
+            <li>ACI policy issues & unknown faults [cite: 75]</li>
+            <li>EVPN blackholes & routing loops [cite: 76]</li>
+            <li>Cloud/DC connectivity failure [cite: 78]</li>
+        </ul>
+        <span class="price-tag">Emergency Rate: €200/hour</span>
     </div>
 
-    <div class="service-box">
-        <h3>High-Severity Troubleshooting</h3>
-        <p>
-            • ACI faults & policy issues<br>
-            • EVPN blackholes, loops, outages<br>
-            • SRX routing & security events<br>
-            • DC ↔ Cloud connectivity failures<br>
-            <strong>Emergency rate: €200/hour</strong>
-        </p>
+    <div class="contact-info">
+        <h2>Contact & Availability</h2>
+        <p>I work **remote only** and maintain **limited availability** to ensure quality for my full-time commitments[cite: 94].</p>
+        <p>To inquire about availability or request the ACI Audit Statement of Work (SoW), please email me:</p>
+        <p>Email: <a href="mailto:igor.bartolic.ccie@outlook.com">igor.bartolic.ccie@outlook.com</a> (Please use your new professional email)</p>
+        <p>LinkedIn: <a href="[Your LinkedIn URL]">Igor Bartolic Profile</a></p>
     </div>
-
-    <div class="service-box">
-        <h3>Network Automation (Python / Ansible)</h3>
-        <p>
-            • Config templates & automation<br>
-            • Health monitoring scripts<br>
-            • Log parsing & RCA helpers<br>
-            • SRE-style tooling<br>
-            <strong>€1,000–€4,000 per mini-project</strong>
-        </p>
-    </div>
-
-    <h2>Who I Work With</h2>
-    <p>
-        • MSPs • Hosting Providers • Telecom • AI Cluster Builders • Startups • Fintech  
-        <br><br>
-        I provide **short-term, high-impact assistance** without long-term contracts.
-    </p>
-
-    <div class="cta">
-        <h2>Contact</h2>
-        <p>For consulting inquiries:</p>
-        <p><strong>Email: ibartolic@gmail.com</strong></p>
-        <a href="https://www.linkedin.com/">Connect on LinkedIn</a>
-    </div>
-
-</div>
-
-<footer>
-    © 2025 Igor Bartolic – Remote Data Center Consulting
-</footer>
 
 </body>
 </html>
